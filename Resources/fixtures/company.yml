@@ -1,0 +1,9 @@
+App\Entity\company:
+  company_{1..10}:
+    name: <company()>
+    slogan: <catchPhrase()>
+    phoneNumber: <phoneNumber()>
+    address: <streetAddress()>
+    websiteUrl: <url()>
+    pictureUrl: <imageUrl()>
+    master: '@master_<current()>'
